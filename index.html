@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog</title>
+    <style>
+        body {
+            background-color: #e6f2ff;
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .top {
+            position: relative; /* Keeps the Nav and Title on the image */
+        }
+
+        .top img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            filter: brightness(0.4);
+            display: block;
+        }
+
+        nav { 
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-family: Impact, sans-serif;
+            padding: 10px 15px;
+            color: white;
+        }
+
+        .info {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            margin: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* This moves the box BELOW the image */
+        .bottom {
+            margin: 40px auto;   /* 40px space from the image, 'auto' centers it */
+            width: 80%;          /* Box width */
+            max-width: 800px;    /* Stops it from getting too wide on big screens */
+            background-color: rgb(133, 182, 246);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .bottom p {
+            margin: 0;
+            line-height: 1.6;
+            color: white;        /* Changed to white so you can read it on the blue */
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="top">
+    <img src="info.jpg" alt="main page pic">
+    <h1 class="info">Welcome to my blog</h1>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="izmir.html">Izmir</a>
+        <a href="antalya.html">Antalya</a>
+        <a href="baku.html">Baku</a>
+    </nav>
+
+    <div class="bottom">
+        <p>Welcome to my sightseeing page! Taking picture is one of my biggest hobbies so this page is about some of the beautiful places I have visited and the memories I captured there. I enjoy traveling and exploring different cities, cultures, and landscapes. Some of the places featured here include Baku, Izmir, and Antalya. Baku is a city that combines modern architecture with rich history and culture. Izmir is known for its relaxing atmosphere and beautiful views by the sea. Antalya is famous for its sunny beaches, nature, and amazing sightseeing spots. Through these photos, I want to share the beauty of these cities and the experiences I had while visiting them. Traveling allows me to learn about different cultures and see the world from new perspectives. I hope you enjoy exploring these places through my pictures.</p>
